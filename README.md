@@ -12,19 +12,16 @@ Notes are written in Markdown and organized by week. Each course also has a dedi
 ## 📁 Repo Structure
 
 ```
-Cloud-Notes/
-│
-├── MIT-6824/
-│   ├── week-01.md
-│   ├── week-02.md
-│   ├── ...
-│   └── labs.md
-│
-└── UIUC-Cloud/
-    ├── week-01.md
-    ├── week-02.md
+├── Cloud-Notes/
+├── week 1
+    ├──topic 1
+    ├──topic 2
     ├── ...
-    └── labs.md
+    ├──lab 1    
+├── week 2
+    ├── ...
+    ├──lab 2 
+
 ```
 
 ---
