@@ -1,0 +1,9 @@
+- **Map Reduce** is used here as a case study to demonstrate a real use case of distributed systems.
+- Some examples of its uses include processing huge amounts of data like scarping or indexing the web
+- It consists of a **Map function** and a **Reduce function** which are abstracted from the distribution network and this responsibility is delegated to the Map Reduce framework which runs on a **master server** to organize the whole computation job and assigns the tasks to the **worker servers**.
+- The input data is fed into a **distributed file system** (DFS) which automatically splits the data into 64mb chunks and evenly balances them across all the machines in the distributed network (with replication for fault tolerance).
+- After that, the Map Reduce framework handles the Map function calls of each chunk of data on the machine **where the data already lives** (which eliminates the need of moving big chunks of data over the network)
+- The first step is the Map function and it outputs an **intermediate result** consisting of **key value pairs**. This result is stored locally and **isn't** passed back to the **DFS**.
+- The Map Reduce framework then collects all the **identical keys** results (also called **Shuffling**) from the intermediate results of all the machines and redirects them to a **Reduce function** call at a particular machine.
+- Map Reduce Functions can be **stacked**; meaning that the **output** of one function can be fed as an **input** to another function.
+- Conceptually, we assume that Reduce calls have to **wait** for the Map functions to end before they can begin but practically, the data starts moving **as soon as its individual Map function ends**. However, the Reduce function CANNOT execute until all Map tasks are finished.
