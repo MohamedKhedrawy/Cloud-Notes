@@ -28,10 +28,9 @@ Notes are written in Markdown and organized by week. Each course also has a dedi
 
 ## 🗺️ How to Navigate
 
-- **Weekly notes** (`week-XX.md`) — cover lectures, readings, and key concepts for that week
-- **Labs file** (`labs.md`) — contains each lab prompt, my solution approach, and takeaways
+- **Weekly notes** (`Week X`) — cover lectures, readings, and key concepts for that week
+- (`lab X.md`) — contains each lab prompt, my solution approach, and takeaways
 
-Each file starts with a short summary of what's covered so you can quickly find what you're looking for without reading everything.
 
 ---
 
@@ -52,8 +51,8 @@ Each file starts with a short summary of what's covered so you can quickly find 
 
 ## 🔗 Follow Along
 
-I post weekly insights from these courses on [LinkedIn](#) — distilling the most interesting concepts into digestible takeaways.
+I post weekly insights from these courses on [LinkedIn](https://www.linkedin.com/in/mohamed-khedrawy-ba83ab212/).
 
 ---
 
-> **Disclaimer:** These are personal study notes, not official course material. Always refer to the original lectures and papers for authoritative content.
+> **Disclaimer:** These are personal handwritten study notes without AI, not official course material. Always refer to the original lectures and papers for authoritative content.
